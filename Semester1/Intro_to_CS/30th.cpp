@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 // check if the matrix is reflexive
+// the entries of the matrix is only 1 or 0
 int main()
 {
     float x[5][5]; //x[n][n]
