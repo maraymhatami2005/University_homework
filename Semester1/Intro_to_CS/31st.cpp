@@ -22,5 +22,7 @@ int main()
         cout << "The matrix is skew symmetric";
     else
         cout << "The matrix is not skew symmetric";
+    
+    return 0;
 }
                 
