@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// check if the matrix is reflexive
 int main()
 {
     float x[5][5]; //x[n][n]
@@ -19,8 +19,8 @@ int main()
                 flag = 'N';
 
     if(flag == "Y")
-        cout << " the matrix is ";
+        cout << " the matrix is reflexive.";
     else
-        cout << "the matrix is ";
+        cout << "the matrix is reflexive.";
      return 0;
 }
