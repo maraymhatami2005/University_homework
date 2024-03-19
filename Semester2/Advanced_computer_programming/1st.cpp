@@ -10,14 +10,8 @@ float f(int a, int b, int c){
 }
 int main(){
     int a, x, q;
-    cout << "enter a number:";
-    cin >> a;
+    cout << "enter 3 numbers:";
+    cin >> a >> x>> q;
     
-    cout << "enter a number:";
-    cin >> x;
-
-    cout << "enter a number:";
-    cin >> q;
-
     cout << f(a, x, q);
 }
