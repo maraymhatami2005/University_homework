@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 // A function that finds the index of the minimum element 
 //in a given range [low, up] of an array x[]
 
