@@ -3,6 +3,7 @@ using namespace std;
 // This function takes 'n' as the number of characters used in a text and calculates the cost of the SMS based on the formula below:
 // For the first 20 characters: 100 RIAL
 // For every 5 extra characters: add 40 RIAL
+
 int cost(int n)
 {
     float s;
