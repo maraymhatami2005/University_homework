@@ -13,7 +13,7 @@ int BubbleSort(float x[], int n)
         for(j=0; j<n-i-1; j++)
         {
 
-            if (x[j] < x[j+1])
+            if (x[j] > x[j+1])
             {
                 temp = x[j];
                 x[j]= x[j+1];
