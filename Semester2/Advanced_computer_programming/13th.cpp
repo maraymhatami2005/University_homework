@@ -18,7 +18,7 @@ student Read(){
 }
 
 void Print(student x){
-    cout << x.name << "\t" << x.ID;
+    cout << x.name << "\t" << x.ID << endl;
 }
 
 int Min(student x[], int l, int u){
