@@ -38,10 +38,10 @@ int Find(float  A[], int l, int u, float x)
     if(x > A[m])
         return(Find(A, m+1, u, x));
 
-    if(x < A[m])
+    else 
         return(Find(A, l, m-1,x));
 
-    return(-1);
+    
 }
 
 int main(){

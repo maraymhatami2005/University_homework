@@ -5,12 +5,6 @@ using namespace std;
 int GCD1(int a, int b){// non-recursive
     int temp1, temp2;
 
-    if(b>a)
-    {
-        temp1 = a;
-        a = b;
-        b = temp1;
-    }
 
     while(b!=0)
     {
@@ -23,12 +17,6 @@ int GCD1(int a, int b){// non-recursive
 
 int GCD2(int a, int b){ // recursive
     int temp;
-    if(b>a)
-    {
-        temp = a;
-        a = b;
-        b = temp;
-    }
 
 
     if (b==0)
