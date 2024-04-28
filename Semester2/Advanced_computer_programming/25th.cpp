@@ -12,11 +12,31 @@ class ratio
     private:
         int num;
         int den;
-};
+}; 
+/*
+ we can also use:
+    class ratio
+{
+    public:
+        void assign(int s, int m)
+        {num = s; den = m; r = float(s) / m};
+
+        void print()
+        {cout << num<< '/' << den << '=' << r;}
+
+        float r;
+
+    private:
+        int num;
+        int den;
+}; 
+
+
+*/
 
 void ratio::assign(int s, int m)
 {
-    if (m ==0)
+    if (m == 0)
     {
         cout << "Not valid, denominator can not be zero." << endl;
         return ;
