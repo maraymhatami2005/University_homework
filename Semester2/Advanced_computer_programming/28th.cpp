@@ -18,12 +18,8 @@ class ratio
             r = t;
         }
 
-        ratio()
-        {
-            num = 0;
-            den = 1;
-            r = 0;
-        }
+        ratio();// constructor declaration only
+
 
         void print();
     
@@ -34,6 +30,13 @@ class ratio
 
 
 };
+
+ratio::ratio()// outside definition of constructor
+{
+    num = 0;
+    den = 1;
+    r = 0;
+}
 
 
 void ratio::print()
