@@ -4,11 +4,17 @@ using namespace std;
 
 class ratio{
     public:
-        ratio(int a =0, int b=1):num(a), den(b){cout << "An object born"<< endl;};
+        ratio(int a =0, int b=1):num(a), den(b)
+        {
+            cout << "An object born"<< endl;
+        };
+
         ratio(const ratio &object): num(object.num), den(object.den){};
         ~ratio(){cout << "An object died" << endl;}
         void print();
-        float fraction(){
+        
+        float fraction()
+        {
             return (r = float(num)/den);
         }
 
