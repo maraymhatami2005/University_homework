@@ -15,15 +15,15 @@ int cost(int n)
     }
     if(n<=20)
     {
-
-        return 100;
+        cout << 100 <<endl;
+        return 0;
     }
     s = 100 + ((n-20)/5) * 40;
 
     if (((n - 20) % 5) != 0)
         s = s + 40;
 
-    cout << "Cost = " << s << "\n";
+    cout << "Cost = " << s << " RIAL" << endl;
     
     return(0);
 
