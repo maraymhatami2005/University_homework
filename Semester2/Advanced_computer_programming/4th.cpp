@@ -13,7 +13,11 @@ int cost(int n)
         cout << "Error.";
         return(0);
     }
+    if(n<=20)
+    {
 
+        return 100;
+    }
     s = 100 + ((n-20)/5) * 40;
 
     if (((n - 20) % 5) != 0)
