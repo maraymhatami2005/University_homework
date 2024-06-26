@@ -23,7 +23,7 @@ int main()
     for(i=0; i<10; i++)
         cin >> y[i];
     
-    cout << "x .y = " << "\n" << inner_product(x, y, 10);
+    cout << "x .y = " << "\n" << inner_product(x, y, 10) << endl;
 
     return 0;
 }

@@ -10,20 +10,22 @@ int GCD(int a, int b)
         a = b;
         b = z;
     }
-    while(a!=b)
+   while(a != b)
     {
         z = a - b;
-        if (z <= b)
+        if (z < b)
         {
-            b = z;
             a = b;
+            b = z;
         }
         else
         {
             a = z;
             b = b;
+        
         }
     }
+
     return(a);
 }
 
@@ -49,5 +51,6 @@ int GCD(int a, int b)
         int x, y;
         cout << "Enter 2 numbers:";
         cin >> x >>y ;
-        cout << GCD(x,y) << "\n" << BMM(x, y);
+        cout << GCD(x,y) << endl;
+        cout << BMM(x, y) << endl;
     }
