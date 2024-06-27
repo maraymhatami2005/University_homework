@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//redefining operator %
 
 class Ratio {
     friend Ratio operator%(const Ratio &, const Ratio &);
