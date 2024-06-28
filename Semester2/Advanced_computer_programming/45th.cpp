@@ -27,6 +27,6 @@ int main()
 {
     Ratio x(4,6), y(1,3);
     Ratio z;
-    z = x -y;
+    z = x - y;
     z.Print();
 }

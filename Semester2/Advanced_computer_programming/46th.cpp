@@ -26,7 +26,5 @@ Ratio operator%(const Ratio &x, const Ratio &y) {
 
 int main(){
     Ratio x(3,4), y(1,2);
-    Ratio z;
-    z = x % y;
-    z.Print();
+    (x % y).Print();
 }
